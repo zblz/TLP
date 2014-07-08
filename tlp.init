@@ -15,8 +15,6 @@
 # Description:       Initialize tlp
 ### END INIT INFO
 
-. /lib/lsb/init-functions
-
 case "$1" in
     start|\
     stop|\
