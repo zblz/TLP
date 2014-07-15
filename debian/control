@@ -11,9 +11,9 @@ Vcs-Browser: https://github.com/linrunner/TLP/tree/master
 Package: tlp
 Architecture: all
 Depends: ${misc:Depends}, pm-utils
-Recommends: tlp-rdw, acpid, ethtool, smartmontools, wireless-tools
-Suggests: acpi-call, tp-smapi-dkms
-Conflicts: pm-utils-powersave-policy
+Recommends: tlp-rdw, ethtool, smartmontools, wireless-tools
+Suggests: tp-smapi-dkms
+Conflicts: laptop-mode-tools
 Description: Save battery power on laptops
  TLP implements advanced power management for Linux. TLP is a pure
  command line tool with automated background tasks. It does not

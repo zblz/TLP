@@ -20,9 +20,4 @@ case "$1" in
         done
         ;;
 
-    purge) # Restart acpid to insert thinkpad-radiosw event
-        if invoke-rc.d acpid restart > /dev/null 2>&1 ; then
-            echo "acpid restarted."
-        fi
-        ;;
 esac

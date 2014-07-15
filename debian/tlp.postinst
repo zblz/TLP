@@ -39,10 +39,6 @@ case "$1" in
                 echo "manual" > ${i%.conf}.override
             fi
         done
-
-        # Restart acpid to insert thinkpad-radiosw event
-        if invoke-rc.d acpid restart > /dev/null 2>&1 ; then
-            echo "acpid restarted."
-        fi
         ;;
+
 esac
