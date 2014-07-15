@@ -5,6 +5,8 @@ Maintainer: Thomas Koch <linrunner@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.5
 Homepage: http://linrunner.de/tlp
+Vcs-Git: https://github.com/linrunner/TLP.git
+Vcs-Browser: https://github.com/linrunner/TLP/tree/master
 
 Package: tlp
 Architecture: all
