@@ -1,5 +1,5 @@
-#!/bin/sh
-# set -e
+#!/bin/sh -
+set -e
 
 #DEBHELPER#
 
@@ -14,7 +14,7 @@ case "$1" in
             fi
         done
 
-        # Re-enable conflicting upstart jobs (Package rfkill, Ubuntu 12.04)
+        # Re-enable conflicting upstart jobs (Package rfkill in Ubuntu)
         for i in /etc/init/rfkill-*.override; do
             [ ! -f "$i" ] || rm -f $i
         done
